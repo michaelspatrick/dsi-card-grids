@@ -1,0 +1,51 @@
+/* Minimal structural CSS only. Let the theme handle most styling. */
+
+/* Slider layout container */
+.dsi-cards.dsi-card-slider {
+    position: relative;
+    overflow: hidden;
+}
+
+.dsi-card-slider-track {
+    display: flex;
+    transition: transform 0.5s ease;
+    will-change: transform;
+}
+
+/* Basic nav buttons (theme button styles still apply via .button if desired) */
+.dsi-card-slider-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.dsi-card-slider-prev {
+    left: 0.5rem;
+}
+
+.dsi-card-slider-next {
+    right: 0.5rem;
+}
+
+/* Image placeholder if no thumbnail */
+.dsi-card-image-placeholder {
+    width: 100%;
+    padding-top: 60%;
+}
+
+/* Optional: small badge positioning, but not colors/typography */
+.dsi-card-badges {
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+    display: flex;
+    gap: 0.25rem;
+}
