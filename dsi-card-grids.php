@@ -5,7 +5,6 @@
  * Author: Michael Patrick
  * Version: 1.0.2
  * Text Domain: dsi-card-grids
- * Requires Woocommerce
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
